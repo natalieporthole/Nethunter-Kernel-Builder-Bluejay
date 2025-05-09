@@ -1,8 +1,9 @@
-[  {
+[
+  {
     "kernelSource": {
-      "name": "Lineage21",
-      "repo": "https://android.googlesource.com/kernel/configs/",
-      "branch": "android-gs-bluejay-5.10-android14-qpr3-beta",
+      "name": "android-15-main",
+      "repo": "https://android.googlesource.com/kernel/configs/+/374062c073fc8e0309b7d76c943e9eff3e24ba82",
+      "branch": "main",
       "device": "bluejay"
     },
     "withKernelSU": true,
@@ -12,6 +13,7 @@
         "branch": "master",
         "name": "gas"
       },
+
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
         "branch": "11",
